@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-Beat-Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <section class="app">
+
+        <header>
+
+            <h1>Tap Music</h1>
+
+            <p>Create sounds with just one tap</p>
+
+        </header>
+
+        <div class="visual"></div>
+
+        <div class="pads">
+
+            <div class="pad1" data-key="65">
+
+                <kbd>A</kbd>
+
+                <audio data-key="65" src="./sounds/bubbles.mp3" class="sound"></audio>
+
+            </div>
+
+            <div class="pad2" data-key="83">
+
+                <kbd>S</kbd>
+
+                <audio data-key="83"  class="sound" source src="./sounds/clay.mp3" ></audio>
+
+            </div>
+
+            <div class="pad3" data-key="68" >
+
+                <kbd>D</kbd>
+
+                <audio data-key="68" class="sound" src="./sounds/confetti.mp3" ></audio>
+
+            </div>
+
+            <div class="pad4" data-key="70" >
+
+                <kbd>F</kbd>
+
+                <audio class="sound" source src="./sounds/glimmer.mp3" data-key="70" ></audio>
+
+            </div>
+
+            <div class="pad5" data-key="71" >
+
+                <kbd>G</kbd>
+
+                <audio data-key="71" class="sound" src="./sounds/moon.mp3" ></audio>
+
+            </div>
+
+            <div class="pad6" data-key="72" >
+
+                <kbd>H</kbd>
+
+                <audio class="sound" src="./sounds/ufo.mp3" data-key="72" ></audio>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
