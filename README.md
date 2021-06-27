@@ -16,4 +16,4 @@ JS-Beat-Maker is an application based website template.This template provies the
 
 ## Project Preview:
 
-(https://ali-tahir4024.github.io/JS-Beat-Maker/)
+[JS Beat Maker](https://alitahir4024.github.io/JS-Beat-Maker/)
